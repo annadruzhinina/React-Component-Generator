@@ -58,7 +58,7 @@ Project data is only persisted to the database for authenticated users with a `p
 
 ### Database
 
-Prisma + SQLite (`prisma/dev.db`). Two models: `User` (email/password) and `Project` (stores `messages` and `data` as JSON strings). Generated client lives in `src/generated/prisma/`. Run `npx prisma studio` to inspect.
+Prisma + SQLite (`prisma/dev.db`). Schema is defined in `prisma/schema.prisma` — reference it for the full data model. Two models: `User` (email/password) and `Project` (stores `messages` and `data` as JSON strings). Generated client lives in `src/generated/prisma/`. Run `npx prisma studio` to inspect.
 
 ### Generated components
 
